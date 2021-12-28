@@ -64,7 +64,7 @@ for i in range (0, band1.shape[0], 1):
 
 finalImageArr = numpy.array(finalData)
 finalImage = []
-finalImage.append(finalData)
+finalImage.append(finalImageArr)
 
 finalImageTiff = numpy.array(finalImage) #numpy array gồm 3 dimensions
 
